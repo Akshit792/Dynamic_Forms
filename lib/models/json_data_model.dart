@@ -11,7 +11,7 @@ class JsonDataClass {
       },
       {
         "type": "text",
-        "name": "noOfCricketPlayers",
+        "name": "No Of Cricket Players",
         "visibleIf": "{favoriteSport} = 'Cricket'",
         "title": "How many players a cricket team can have?",
         "inputType": "number"
