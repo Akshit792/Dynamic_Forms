@@ -1,0 +1,38 @@
+{
+ "pages": [
+  {
+   "name": "profilePage",
+   "elements": [
+    {
+     "type": "text",
+     "name": "firstName",
+     "title": "First Name",
+     "isRequired": true
+    },
+    {
+     "type": "text",
+     "name": "lastName",
+     "title": "Last Name"
+    },
+    {
+     "type": "text",
+     "name": "email",
+     "title": "Email",
+     "isRequired": true,
+     "inputType": "email"
+    },
+    {
+     "type": "dropdown",
+     "name": "gender",
+     "title": "Gender",
+     "choices": [
+      "Male",
+      "Female",
+      "Other"
+     ]
+    }
+   ],
+   "title": "User Profile Information"
+  }
+ ]
+}
