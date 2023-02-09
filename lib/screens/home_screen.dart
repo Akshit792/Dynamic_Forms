@@ -17,8 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     dataList = [
-      {"label_text": "JSON Schema 1", "value": "JSON 1"},
-      {"label_text": "JSON Schema 2", "value": "JSON 2"}
+      {"label_text": "JSON 1", "value": "JSON 1"},
+      {"label_text": "JSON 2", "value": "JSON 2"}
     ];
 
     super.initState();
