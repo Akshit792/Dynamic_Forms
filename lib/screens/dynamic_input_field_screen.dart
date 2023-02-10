@@ -370,6 +370,7 @@ class _DynamicInputFieldScreenState extends State<DynamicInputFieldScreen> {
                 color: Colors.blue,
                 onPressed: () {
                   Navigator.of(context).pop();
+                  Navigator.of(context).pop();
                 },
                 child: const Text(
                   'Close',
